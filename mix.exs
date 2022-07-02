@@ -63,7 +63,7 @@ defmodule JSON.LD.Mixfile do
 
   defp deps do
     [
-      rdf_ex_dep(:rdf, "~> 0.9"),
+      {:rdf, git: "https://github.com/peaceful-organization/rdf-ex.git", tag: "update-decimal-version"},
       {:jason, "~> 1.2"},
       {:httpoison, "~> 1.6"},
       {:dialyxir, "~> 1.1", only: :dev, runtime: false},
